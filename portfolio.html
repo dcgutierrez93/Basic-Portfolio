@@ -1,60 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-us">
 
 <head>
-  <meta charset="utf-8" </meta>
-  <title>My Portfolio</title>
-  <!-- Link style.css -->
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <meta charset="UTF-8">
+  <title>Portfolio | David Gutierrez</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-  <div class="header-container">
-    <header>David Gutierrez</header>
 
-    <nav>
-      <ul>
-        <li class="border"><a href="index.html">About</a></li>
-        <li class="border"><a href="portfolio.html">Portfolio</a></li>
-        <li class="border"><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">David Gutierrez</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-  <div class="main-container">
-    <section id="project-portfolio">
-      <h2>Portfolio</h2>
-      <ul class="project">
-        <li class="box">
-          <div><img class="project" src="assets/images/placeholder-1.jpg" alt="Project 1"><span class="project-title">Hangman</span></div>
-        </li>
-        <li class="box">
-          <div><img class="project" src="assets/images/placeholder-1.jpg" alt="Project 1"><span class="project-title">RPG Game</span></div>
-        </li>
-        <li class="box">
-          <div><img class="project" src="assets/images/placeholder-1.jpg" alt="Project 1"><span class="project-title">Trivia Game</span></div>
-        </li>
-        <li class="box">
-          <div><img class="project" src="assets/images/placeholder-1.jpg" alt="Project 1"><span class="project-title">Rutgers Info Widget</span></div>
-        </li>
-        <li class="box">
-          <div><img class="project" src="assets/images/placeholder-1.jpg" alt="Project 1"><span class="project-title">Rock Paper Scissors</span></div>
-        </li>
-      </ul>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Portfolio</h1>
+
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="hangman">
+
+        <h3>Hangman</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
+
+        <h3>RPG Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
+
+        <h3>Trivia Game</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
+
+        <h3>Rutgers Info Widget</h3>
+      </div>
+      <div class="work">
+        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
+
+        <h3>Rock Paper Scissors</h3>
+      </div>
+
     </section>
 
-    <section id="social-links">
-      <h3>Connect with Me</h3>
-      <ul>
-        <li><a href="#"><img class="icon" src="assets/css/images/github-128/png/webloc">
-        <li><a href="#"><img class="icon" src="assets/css/images/square-linkedin-128.png.webloc">
-        <li><a href="#"><img class="icon" src="assets/css/images/stackoverflow.png.webloc">
-      </ul>
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Connect with Me</h2>
+
+        <a href="#"><img src="assets/images/github-128.png" class="social" alt="GitHub" /></a>
+        <a href="#"><img src="assets/images/linkedin-128.png" class="social" alt="LinkedIn" /></a>
+        <a href="#"><img src="assets/images/stackoverflow-128.png" class="social" alt="Stack Overflow" /></a>
+      </div>
     </section>
   </div>
 
-  <footer>&#64; Copyright 2017 David Gutierrez</footer>
-
+  <footer>
+    <div class="container">
+      Copyright &copy; 2016 David Gutierrez
+    </div>
+  </footer>
 </body>
+
 </html>
